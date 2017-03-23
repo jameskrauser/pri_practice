@@ -1,0 +1,79 @@
+/**
+http://codepen.io/mukiwu/pen/AzJil
+
+simple resize layout
+Author : muki wu
+Blog: http://www.mukispace.com
+
+**/
+
+
+
+
+body{
+	font-family:tahoma,sans-serif;
+	font-size: .8em;
+}
+
+.wrap{
+	height:100%;
+}
+
+.top-wrap{
+	position:absolute;
+	top:0;
+	bottom:33px;
+	background:#eee;
+	border-bottom:1px solid #ddd;
+	width:300px;
+	overflow-y:scroll;
+	font-size:1.2em;
+	padding-top:10px;
+}
+
+.bottom-wrap{
+	position:absolute;
+	bottom:10px;
+	background: #d0d0d0;
+	width:300px;
+}
+
+input{
+	border:none;
+	background:transparent;
+	color:#555;
+	width:200px;
+	padding-left:10px;	
+}
+
+.box{
+	background:rgba(14,50,22,0.5);
+	border-bottom:1px solid #ccc;
+	padding:5px;
+	color:#fff;
+}
+
+.box img{
+	float:left;
+	position:relative;
+	top:5px;
+	padding-right:10px;
+}
+
+::-webkit-inputplaceholder{
+		color:#000;
+}
+
+::-moz-placeholder{
+	color:#000;
+}
+
+::-ms-input-placeholder{
+	color:#000;
+}
+
+
+
+
+
+
